@@ -1,0 +1,142 @@
+.App {
+    text-align: center;
+
+    .info {
+        margin-left: 200px;
+        margin-top: 100px;
+
+        .opening-page {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            transform: translateY(-100px);
+
+            h1 {
+                font-size: 50px;
+                color: #4b4276;
+            }
+
+            h2 {
+                font-size: 35px;
+                color: #4b4276;
+            }
+        }
+
+        .table-info {
+            
+            h1 {
+                font-size: 50px;
+                color: #4b4276;
+                margin-bottom: 50px;
+            }
+
+            table{
+                width: 80%;
+                margin: auto;
+                thead {
+                    width: 100%;
+                    background-color: #4b4276;;
+                    height: 40px;
+                    color: white;
+
+                    th {
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                tbody {
+                    .even {
+                        background-color:#4b42767a; 
+                    }
+
+                    .odd {
+                        background-color:azure;
+                    }
+
+                    tr {
+                        height: 30px;
+                    }
+                }
+            }
+        }
+
+        .first-table {
+            tr {
+                width: 100%;
+                th:nth-of-type(1) {
+                    width: 15%;
+                }
+                th:nth-of-type(2) {
+                    width: 20%;
+                }
+                th:nth-of-type(3) {
+                    width: 20%;
+                }
+                th:nth-of-type(4) {
+                    width: 45%;
+                }
+            }
+        }
+        
+        .second-table {
+            tr {
+                width: 100%;
+                th:nth-of-type(1) {
+                    width: 15%;
+                }
+                th:nth-of-type(2) {
+                    width: 20%;
+                }
+                th:nth-of-type(3) {
+                    width: 20%;
+                }
+                th:nth-of-type(4) {
+                    width: 45%;
+                }
+            }
+        }
+
+        .third-table {
+            tr {
+                width: 100%;
+                th:nth-of-type(1) {
+                    width: 15%;
+                }
+                th:nth-of-type(2) {
+                    width: 20%;
+                }
+                th:nth-of-type(3) {
+                    width: 20%;
+                }
+                th:nth-of-type(4) {
+                    width: 45%;
+                }
+            }
+        }
+
+        .fourth-table {
+            tr {
+                width: 100%;
+                th:nth-of-type(1) {
+                    width: 15%;
+                }
+                th:nth-of-type(2) {
+                    width: 20%;
+                }
+                th:nth-of-type(3) {
+                    width: 20%;
+                }
+                th:nth-of-type(4) {
+                    width: 45%;
+                }
+            }
+        }
+    }
+}
+
+
+  

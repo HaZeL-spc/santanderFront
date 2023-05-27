@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+.App .info {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.App .info .opening-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(-100px);
+}
+.App .info .opening-page h1 {
+  font-size: 50px;
+  color: #4b4276;
+}
+.App .info .opening-page h2 {
+  font-size: 35px;
+  color: #4b4276;
+}
+.App .info .table-info h1 {
+  font-size: 50px;
+  color: #4b4276;
+  margin-bottom: 50px;
+}
+.App .info .table-info table {
+  width: 80%;
+  margin: auto;
+}
+.App .info .table-info table thead {
+  width: 100%;
+  background-color: #4b4276;
+  height: 40px;
+  color: white;
+}
+.App .info .table-info table thead th:hover {
+  cursor: pointer;
+}
+.App .info .table-info table tbody .even {
+  background-color: rgba(75, 66, 118, 0.4784313725);
+}
+.App .info .table-info table tbody .odd {
+  background-color: azure;
+}
+.App .info .table-info table tbody tr {
+  height: 30px;
+}
+.App .info .first-table tr {
+  width: 100%;
+}
+.App .info .first-table tr th:nth-of-type(1) {
+  width: 15%;
+}
+.App .info .first-table tr th:nth-of-type(2) {
+  width: 20%;
+}
+.App .info .first-table tr th:nth-of-type(3) {
+  width: 20%;
+}
+.App .info .first-table tr th:nth-of-type(4) {
+  width: 45%;
+}
+.App .info .second-table tr {
+  width: 100%;
+}
+.App .info .second-table tr th:nth-of-type(1) {
+  width: 15%;
+}
+.App .info .second-table tr th:nth-of-type(2) {
+  width: 20%;
+}
+.App .info .second-table tr th:nth-of-type(3) {
+  width: 20%;
+}
+.App .info .second-table tr th:nth-of-type(4) {
+  width: 45%;
+}
+.App .info .third-table tr {
+  width: 100%;
+}
+.App .info .third-table tr th:nth-of-type(1) {
+  width: 15%;
+}
+.App .info .third-table tr th:nth-of-type(2) {
+  width: 20%;
+}
+.App .info .third-table tr th:nth-of-type(3) {
+  width: 20%;
+}
+.App .info .third-table tr th:nth-of-type(4) {
+  width: 45%;
+}
+.App .info .fourth-table tr {
+  width: 100%;
+}
+.App .info .fourth-table tr th:nth-of-type(1) {
+  width: 15%;
+}
+.App .info .fourth-table tr th:nth-of-type(2) {
+  width: 20%;
+}
+.App .info .fourth-table tr th:nth-of-type(3) {
+  width: 20%;
+}
+.App .info .fourth-table tr th:nth-of-type(4) {
+  width: 45%;
+}/*# sourceMappingURL=App.css.map */

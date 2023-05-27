@@ -1,25 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./styles/App.css"
+import FirstQuery from './components/FirstQuery';
+import SecondQuery from './components/SecondQuery';
+import ThirdQuery from './components/ThirdQuery';
+import FourthQuery from './components/FourthQuery';
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Navbar from './components/Navbar';
+import OpeningPage from './components/OpeningPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+        <div className="App">
+          <Navbar/>
+          <div className='info'>
+          <Routes>
+            <Route path='/' element={<OpeningPage/>}/>
+            <Route path="/first" element={<FirstQuery/>}
+            />
+            <Route path="/second" element={<SecondQuery/>} />
+            <Route path="/third" element={<ThirdQuery/>} />
+            <Route path="/fourth" element={<FourthQuery/>} />
+          </Routes>
+          </div>
+      </div>
+    </BrowserRouter>
   );
 }
 
