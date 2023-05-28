@@ -99,7 +99,7 @@ function ThirdQuery() {
   return (
     <div className='table-info'>
        <h1>THIRD</h1>
-        <table>
+        <table className='third-table'>
             <thead>
               <tr>
                 <th className='imie' onClick={() => sortTable('imie')}>IMIE</th>

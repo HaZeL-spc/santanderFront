@@ -11,7 +11,6 @@ function FourthQuery() {
               .then((response) => response.json())
               .then((data) => {
                     setData(data);
-                    console.log(data)
               })
         }  
 
@@ -22,7 +21,7 @@ function FourthQuery() {
   return (
     <div className='table-info'>
        <h1>FOURTH</h1>
-        <table>
+        <table className='fourth-table'>
             <thead>
                 <tr>
                     <th>IMIE</th>

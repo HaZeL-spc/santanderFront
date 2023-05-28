@@ -9,8 +9,8 @@ function SecondQuery() {
             await fetch("/api/getstudentsgroupnull")
               .then((response) => response.json())
               .then((data) => {
-                    setData(data);
                     console.log(data)
+                    setData(data);
               })
         }  
 
@@ -21,7 +21,7 @@ function SecondQuery() {
   return (
     <div className='table-info'>
         <h1>SECOND</h1>
-        <table>
+        <table className='second-table'>
             <thead>
                 <tr>
                     <th>IMIE</th>

@@ -6,7 +6,7 @@
   margin-top: 100px;
 }
 .App .info .opening-page {
-  height: 100vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +23,6 @@
 }
 .App .info .table-info h1 {
   font-size: 50px;
-  color: #4b4276;
   margin-bottom: 50px;
 }
 .App .info .table-info table {
@@ -67,44 +66,59 @@
   width: 100%;
 }
 .App .info .second-table tr th:nth-of-type(1) {
-  width: 15%;
+  width: 20%;
 }
 .App .info .second-table tr th:nth-of-type(2) {
-  width: 20%;
+  width: 40%;
 }
 .App .info .second-table tr th:nth-of-type(3) {
-  width: 20%;
-}
-.App .info .second-table tr th:nth-of-type(4) {
-  width: 45%;
+  width: 40%;
 }
 .App .info .third-table tr {
   width: 100%;
 }
 .App .info .third-table tr th:nth-of-type(1) {
-  width: 15%;
+  width: 20%;
 }
 .App .info .third-table tr th:nth-of-type(2) {
-  width: 20%;
+  width: 30%;
 }
 .App .info .third-table tr th:nth-of-type(3) {
-  width: 20%;
-}
-.App .info .third-table tr th:nth-of-type(4) {
-  width: 45%;
+  width: 50%;
 }
 .App .info .fourth-table tr {
   width: 100%;
 }
 .App .info .fourth-table tr th:nth-of-type(1) {
-  width: 15%;
+  width: 20%;
 }
 .App .info .fourth-table tr th:nth-of-type(2) {
-  width: 20%;
+  width: 40%;
 }
 .App .info .fourth-table tr th:nth-of-type(3) {
-  width: 20%;
+  width: 40%;
 }
-.App .info .fourth-table tr th:nth-of-type(4) {
-  width: 45%;
+
+@media (max-width: 768px) {
+  .App .info {
+    margin-left: 150px;
+  }
+  .App .info .table-info h1 {
+    font-size: 30px;
+  }
+  .App .info .table-info table thead {
+    font-size: 13px;
+  }
+  .App .info .table-info table tbody {
+    font-size: 13px;
+  }
+}
+@media (max-width: 520px) {
+  .App .info {
+    margin: 20px;
+    transform: translateY(150px);
+  }
+  .App .info .opening-page {
+    transform: translateY(50px);
+  }
 }/*# sourceMappingURL=App.css.map */
