@@ -9,7 +9,7 @@ function SecondQuery() {
             await fetch("/api/getstudentsgroupnull")
               .then((response) => response.json())
               .then((data) => {
-                    console.log(data)
+                    // console.log(data)
                     setData(data);
               })
         }  
